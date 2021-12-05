@@ -4,7 +4,7 @@ Prototype of a debugging tool for curation-scripts
 Requirements:
 * python3
 * structlog
-* dictdiffer
+* https://github.com/inveniosoftware/dictdiffer
 
 How to use:
 * Copy my_search_check.py to your directory
