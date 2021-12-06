@@ -14,7 +14,7 @@ How to use:
 
 Upload my_custom_action.py to github:
 * Create a new directory under https://github.com/inspirehep/curation-scripts/tree/master/scripts 
-* Add my_custom_action.py as new file. 
+* Add my_custom_action.py as new file script.py. 
 * Swap the include file to *from inspirehep.curation.search_check_do import SearchCheckDo*.
-* Create PR.
+* Create a new branch for this commit and start a pull request. 
 * For updates edit the file directly on github
