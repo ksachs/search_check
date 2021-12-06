@@ -116,7 +116,7 @@ class SearchCheckDo(ABC):
                     prefix = '- '
                 for item in update[2]:
                     difftext += "%s%s:%s\n" % \
-                    (prefix,self.append_item_to_text(field_text,item[0]),item[1])
+                    (prefix,self.append_item_to_text(field_text, item[0]), item[1])
         return difftext
 
 
@@ -142,7 +142,7 @@ class SearchCheckDo(ABC):
         counter = 0
         logfile_name = "my_search_check.log"
         logfile = open(logfile_name, mode='w')
-        for result in self.perform_test_search():
+        for result in self.perform_inspire_search():
             record = result['metadata']
             old_record = copy.deepcopy(record)
             recid = record.get('control_number', '000000')
