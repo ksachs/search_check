@@ -1,4 +1,4 @@
-# search_check
+# Debugging for search_check_do
 Prototype of a debugging tool for curation-scripts
 
 Requirements:
